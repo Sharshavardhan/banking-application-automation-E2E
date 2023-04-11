@@ -1,0 +1,19 @@
+{
+  "name": "banking_application_playwright_e2e",
+  "version": "1.0.0",
+  "description": "banking application E2E automation - playwright",
+  "main": "index.js",
+  "scripts": {
+    "tests:chrome": "playwright test --config=playwright.config.ts --project=Chromium",
+    "tests:firefox": "playwright test --config=playwright.config.ts --porject=firefox",
+    "tests:webkit": "playwright test --config=playwright.config.ts --porject=webkit",
+    "tests:chromeH": "playwright test --config=playwright.config.ts --project=Chromium --headed",
+    "tests:e2e": "playwright test --config=e2e.config.ts --project=Chromium",
+    "tests:e2eH": "playwright test --config=e2e.config.ts --project=Chromium --headed"
+  },
+  "author": "Harshavardhan reddy Sivadi",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "^1.32.2"
+  }
+}

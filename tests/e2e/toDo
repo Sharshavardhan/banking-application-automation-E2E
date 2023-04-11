@@ -1,0 +1,6 @@
+1. fiter transactions --> read table of transactions, validate the value of transactions and print them
+2. transfer funds --> negitive scenario = try tranfering money without specifying amount & validate the error msg
+3. login page --> check the chekbox . keep me signed in.--> write it as seperate test
+4. pay bills --> find  proper way to select date picker instead of passing input
+5. pay bills --> pick day+ 5 days.
+6. payment--> validate hidden title "$ 456 payed to payee apple" in succesful message
